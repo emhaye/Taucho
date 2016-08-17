@@ -952,7 +952,8 @@ headerbar,
     .csd .titlebar:backdrop:not(headerbar) {
       background-color: rgba(26, 26, 26, 0.97); }
   headerbar .title, .titlebar:not(headerbar) .title {
-    font-size: bold;
+    font-size: 14px;
+    font-weight: bold;
     padding-left: 12px;
     padding-right: 12px; }
   headerbar .subtitle, .titlebar:not(headerbar) .subtitle {
