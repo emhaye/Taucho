@@ -931,7 +931,7 @@ actionbar {
 
 headerbar,
 .titlebar:not(headerbar) {
-  min-height: 42px;
+  min-height: 28px;
   padding: 0 7px;
   border-width: 0 0 0px;
   border-style: solid;
@@ -953,7 +953,6 @@ headerbar,
       background-color: rgba(26, 26, 26, 0.97); }
   headerbar .title, .titlebar:not(headerbar) .title {
     font-size: 12px;
-    font-weight: bold;
     padding-left: 12px;
     padding-right: 12px; }
   headerbar .subtitle, .titlebar:not(headerbar) .subtitle {
@@ -1004,8 +1003,8 @@ headerbar,
     .maximized .titlebar:backdrop:not(headerbar) {
       background-color: #1a1a1a; }
 
-.maximized headerbar.default-decoration:backdrop, .maximized
-.csd headerbar.default-decoration:backdrop,
+.maximized headerbar.default-decoration:backdrop,
+.maximized .csd headerbar.default-decoration:backdrop,
 headerbar.default-decoration:backdrop,
 .csd headerbar.default-decoration:backdrop {
     min-height: 28px;
