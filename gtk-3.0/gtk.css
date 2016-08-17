@@ -171,7 +171,7 @@ entry {
     border-color: #29282A;
     background-color: #202124;
     background-image: linear-gradient(to bottom, #202124);
-    box-shadow: inset 1px 0 #2A608F, inset -1px 0 #2A608F, inset 0 1px #2A608F, inset 0 -1px #2A608F; }
+    box-shadow: inset 1px 0 #141516, inset -1px 0 #141516, inset 0 1px #141516, inset 0 -1px #141516; }
   entry:disabled {
     color: rgba(211, 218, 227, 0.45);
     border-color: rgba(43, 46, 57, 0.55);
