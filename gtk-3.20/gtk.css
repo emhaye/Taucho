@@ -907,7 +907,7 @@ toolbar, .inline-toolbar {
   box-shadow: none;
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-image: linear-gradient(to bottom, #1a1a1a, rgba(32, 35, 43, 0.97)) 1 0 1 0; }
+  border-image: linear-gradient(to bottom, #1a1a1a, rgba(20, 21, 22, 0.97)) 1 0 1 0; }
 
 .inline-toolbar {
   background-color: #141516;
@@ -1541,13 +1541,13 @@ menu,
   .csd
   .menu separator {
     margin: 2px 0;
-    background-color: #202124; }
+    background-color: #1a1a1a; }
   menu .separator,
   .csd menu .separator,
   .menu .separator,
   .csd
   .menu .separator {
-    color: #202124; }
+    color: #1a1a1a; }
   menu menuitem,
   .menu menuitem {
     min-height: 16px;
@@ -1629,7 +1629,7 @@ popover.background {
     border: 1px solid #20222a; }
   popover separator,
   popover.background separator {
-    background-color: #202124; }
+    background-color: #1a1a1a; }
   popover > list,
   popover > .view,
   popover > iconview,
@@ -2424,13 +2424,13 @@ scrolledwindow junction {
     border-image-slice: 0 1 0 0; }
 
 separator {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #1a1a1a;
   min-width: 1px;
   min-height: 1px; }
 
 list {
   background-color: #202124;
-  border-color: #29282A; }
+  border-color: #1a1a1a; }
   list row {
     padding: 2px; }
 
@@ -2531,7 +2531,7 @@ calendar {
 messagedialog .titlebar {
   min-height: 20px;
   background-color: rgba(20, 21, 22, 0.97);
-  border-bottom: 1px solid rgba(32, 35, 43, 0.97); }
+  border-bottom: 1px solid rgba(20, 21, 22, 0.97); }
 
 messagedialog .dialog-action-area button {
   padding: 8px;
@@ -2942,10 +2942,10 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
 decoration {
   border-radius: 3px 3px 0 0;
   border-width: 0px;
-  box-shadow: 0 0 0 1px rgba(32, 35, 43, 0.97), 0 8px 8px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 0 1px rgba(20, 21, 22, 0.97), 0 8px 8px 0 rgba(0, 0, 0, 0.35);
   margin: 10px; }
   decoration:backdrop {
-    box-shadow: 0 0 0 1px rgba(32, 35, 43, 0.87), 0 8px 8px 0 transparent, 0 5px 5px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 0 1px rgba(20, 21, 22, 0.87), 0 8px 8px 0 transparent, 0 5px 5px 0 rgba(0, 0, 0, 0.35);
     transition: 200ms ease-out; }
   .fullscreen decoration,
   .tiled decoration {
@@ -3581,7 +3581,7 @@ UnityDecoration {
   -UnityDecoration-title-fade: 35px;
   -UnityDecoration-title-alignment: 0.0; }
   UnityDecoration.top {
-    border: 1px solid rgba(32, 35, 43, 0.97);
+    border: 1px solid rgba(20, 21, 22, 0.97);
     border-bottom-width: 0;
     border-radius: 4px 4px 0 0;
     padding: 1px 6px 0 6px;
@@ -3592,7 +3592,7 @@ UnityDecoration {
       border-bottom-width: 0;
       color: rgba(207, 218, 231, 0.5); }
   UnityDecoration.left, UnityDecoration.right, UnityDecoration.bottom, UnityDecoration.left:backdrop, UnityDecoration.right:backdrop, UnityDecoration.bottom:backdrop {
-    background-image: linear-gradient(to bottom, rgba(32, 35, 43, 0.97)); }
+    background-image: linear-gradient(to bottom, rgba(20, 21, 22, 0.97)); }
 
 UnityPanelWidget,
 .unity-panel {
@@ -4173,7 +4173,7 @@ filechooser placessidebar.sidebar scrollbar,
   filechooser placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
   .nautilus-window placessidebar.sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .nemo-window .sidebar scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider, .caja-side-pane scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
     background-color: #e7eaee;
-    border: 1px solid rgba(0, 0, 0, 0.3); }
+    border: transparent; }
   filechooser placessidebar.sidebar scrollbar slider,
   .nautilus-window placessidebar.sidebar scrollbar slider, .nemo-window .sidebar scrollbar slider, .caja-side-pane scrollbar slider {
     background-color: rgba(231, 234, 238, 0.7); }
