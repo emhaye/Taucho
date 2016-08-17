@@ -4233,6 +4233,56 @@ GtkListBox .h4{
     padding-left: 4px;
 }
 
+/******************
+* Manokwari shell *
+******************/
+.manokwari-fullscreen-dialog {
+	background: rgba(20, 21, 22, 0.8);
+	background: url("bg.png") no-repeat center center;
+	background-size: cover;
+	color: white;
+	-webkit-background-size: cover;
+ }
+
+.manokwari-fullscreen-dialog button {
+    background-color: rgba(10, 10, 10, 0.6);
+    color: white;
+    border-color: #1a1a1a;
+    border-style: solid;
+    border-width: 2px;
+	margin: 0px 50px 30px -45px;
+	border-radius: 5px;
+ }
+
+.manokwari-fullscreen-dialog button:hover {
+    background-color: #2C2E30;
+    color: white;
+    border-color: #1a1a1a;
+ }
+
+.manokwari-panel {
+	background-color: #000;
+	color: #ddd;
+	text-shadow: 0px 0px 0px #aaa;
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+.manokwari-panel-window-names {
+	background-color: #000;
+	color: #444;
+	font-size: 0.63em;
+	text-shadow: 0px 0px 0px #111;
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+.manokwari-panel-window-names:hover {
+	color: #ddd;
+	text-shadow: 0px 0px 0px #888;
+	-webkit-font-smoothing: antialiased !important;
+}
+
 @define-color theme_fg_color #D3DAE3;
 @define-color theme_text_color #D3DAE3;
 @define-color theme_bg_color #202124;
