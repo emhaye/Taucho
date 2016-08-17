@@ -229,18 +229,18 @@ entry {
     .osd entry:focus {
       color: #ffffff;
       border-color: rgba(26, 28, 34, 0.35);
-      background-image: linear-gradient(to bottom, #2A608F); }
+      background-image: linear-gradient(to bottom, #2C2E30); }
     .osd entry:disabled {
       color: rgba(186, 195, 207, 0.55);
       background-image: linear-gradient(to bottom, rgba(102, 109, 132, 0.2)); }
     .osd entry selection:focus, .osd entry selection {
-      color: #2A608F;
+      color: #2C2E30;
       background-color: #ffffff; }
   entry progress {
     margin: 0 -6px;
     border-radius: 0;
     border-width: 0 0 2px;
-    border-color: #2A608F;
+    border-color: #2C2E30;
     border-style: solid;
     background-image: none;
     background-color: transparent;
@@ -251,7 +251,7 @@ treeview entry.flat, treeview entry {
   background-image: none;
   background-color: #202124; }
   treeview entry.flat:focus, treeview entry:focus {
-    border-color: #2A608F; }
+    border-color: #2C2E30; }
 
 @keyframes needs_attention {
   from {
@@ -980,7 +980,7 @@ headerbar,
         -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
     .maximized headerbar.selection-mode,
     .maximized .selection-mode.titlebar:not(headerbar) {
-      background-color: #2A608F; }
+      background-color: #2C2E30; }
   .tiled headerbar, .tiled headerbar:backdrop,
   .maximized headerbar, .maximized headerbar:backdrop,
   .tiled .titlebar:not(headerbar),
@@ -1081,9 +1081,9 @@ window.csd > .titlebar:not(headerbar):backdrop {
     background-image: linear-gradient(to bottom, rgba(95, 105, 127, 0.22)); }
   .primary-toolbar entry selection:focus, headerbar entry selection:focus {
     background-color: #ffffff;
-    color: #2A608F; }
+    color: #2C2E30; }
   .primary-toolbar entry progress, headerbar entry progress {
-    border-color: #2A608F;
+    border-color: #2C2E30;
     background-image: none;
     background-color: transparent; }
   .primary-toolbar entry.warning, headerbar entry.warning {
@@ -2710,7 +2710,7 @@ infobar {
   .error label:selected:focus,
   .error label:selected:hover,
   .error label:selected {
-    color: #2A608F;
+    color: #2C2E30;
     background-color: #ffffff; }
 
 .selection-mode.primary-toolbar button:hover, headerbar.selection-mode button:hover, row:selected button, .info button,
@@ -2768,7 +2768,7 @@ row:selected button:hover, .info button:hover,
 .question button:checked,
 .warning button:checked,
 .error button:checked, .nautilus-window .floating-bar button:checked {
-  color: #2A608F;
+  color: #2C2E30;
   outline-color: rgba(42, 96, 143, 0.3);
   background-color: #ffffff;
   border-color: #ffffff; }
@@ -2794,7 +2794,7 @@ row:selected button:disabled, .info button:disabled,
   .question button:disabled:checked,
   .warning button:disabled:checked,
   .error button:disabled:checked, .nautilus-window .floating-bar button:disabled:checked {
-    color: #2A608F;
+    color: #2C2E30;
     background-color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.4); }
 
