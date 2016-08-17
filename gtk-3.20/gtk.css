@@ -4189,6 +4189,45 @@ filechooser placessidebar.sidebar scrollbar,
   .nautilus-window placessidebar.sidebar scrollbar trough, .nemo-window .sidebar scrollbar trough, .caja-side-pane scrollbar trough {
     background-color: rgba(32, 33, 36, 0.95); }
 
+/*************************
+*  touch text selections *
+*************************/
+GtkBubbleWindow {
+    border-radius: 2px;
+    background-clip: border-box;
+}
+
+GtkBubbleWindow.osd.background {
+    background-color: @osd_bg;
+}
+
+GtkBubbleWindow .toolbar {
+    background-color: transparent;
+}
+
+/**************
+* Text Styles *
+**************/
+.title { font-size: 14px; }
+.h1 { font-size: 12px; }
+.h2 { font-size: 11px; }
+.h3 { font-size: 10px; }
+.h4,
+.category-label {
+    color: mix (@bg_color, @text_color, 0.7);
+    font-weight: 600;
+    text-shadow: 0 1px alpha (#fff, 0.6);
+}
+
+.h4 {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+GtkListBox .h4{
+    padding-left: 4px;
+}
+
 @define-color theme_fg_color #D3DAE3;
 @define-color theme_text_color #D3DAE3;
 @define-color theme_bg_color #202124;
@@ -4232,3 +4271,6 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color wm_icon_unfocused_bg #666A74;
 @define-color wm_icon_hover_bg #C4C7CC;
 @define-color wm_icon_active_bg #ffffff;
+@define-color osd_base #333;
+@define-color osd_fg #eee;
+@define-color osd_bg alpha(shade(@osd_base, 0.8), 0.8);
