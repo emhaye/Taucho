@@ -409,7 +409,7 @@ button {
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #2A608F;
-    border-color: none; }
+    border-color: transparent; }
     button.suggested-action.flat, button.suggested-action.sidebar-button {
       border-color: transparent;
       background-color: transparent;
@@ -421,7 +421,7 @@ button {
       color: #ffffff;
       outline-color: rgba(255, 255, 255, 0.3);
       background-color: #2A608F;
-      border-color: none; }
+      border-color: transparent; }
     button.suggested-action:active, button.suggested-action:checked {
       background-clip: border-box;
       color: #ffffff;
@@ -1229,7 +1229,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
   color: #ffffff;
   outline-color: rgba(255, 255, 255, 0.3);
   background-color: #2A608F;
-  border-color: none; }
+  border-color: transparent; }
   .primary-toolbar button.suggested-action.flat, headerbar button.suggested-action.flat, .primary-toolbar button.suggested-action.sidebar-button, headerbar button.suggested-action.sidebar-button {
     border-color: transparent;
     background-color: transparent;
@@ -1241,13 +1241,13 @@ window.csd > .titlebar:not(headerbar):backdrop {
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #2C2E30;
-    border-color: none; }
+    border-color: transparent; }
   .primary-toolbar button.suggested-action:active, headerbar button.suggested-action:active, .primary-toolbar button.suggested-action:checked, headerbar button.suggested-action:checked {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #2A608F;
-    border-color: none; }
+    border-color: transparent; }
   .primary-toolbar button.suggested-action.flat:disabled, headerbar button.suggested-action.flat:disabled, .primary-toolbar button.suggested-action.sidebar-button:disabled, headerbar button.suggested-action.sidebar-button:disabled, .primary-toolbar button.suggested-action:disabled, headerbar button.suggested-action:disabled {
     background-color: rgba(41, 40, 42, 0);
     border-color: rgba(41, 40, 42, 0); }
@@ -3979,19 +3979,19 @@ GtkListBox .h4 {
   color: #ffffff;
   outline-color: rgba(255, 255, 255, 0.3);
   background-color: #2A608F;
-  border-color: none; }
+  border-color: transparent; }
   #restart_button.button:hover {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #2A608F;
-    border-color: none; }
+    border-color: transparent; }
   #restart_button.button:active, #restart_button.button:checked {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #2A608F;
-    border-color: none; }
+    border-color: transparent; }
 
 #greeter_infobar {
   border-bottom-width: 0;
