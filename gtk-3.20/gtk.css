@@ -2961,7 +2961,9 @@ decoration {
     border-radius: 0; }
   .ssd decoration {
     border-radius: 5px 5px 0 0;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.65); }
+    margin: 10px;
+    box-shadow: 0 0 0 1px alpha (#000, 0.15),
+                0 12px 30px -6px alpha (#000, 0.80); }
     .ssd decoration.maximized {
       border-radius: 0; }
   .csd.popup decoration {
@@ -2974,8 +2976,9 @@ decoration {
     border-radius: 3px; }
   .solid-csd decoration {
     border-radius: 0;
-    margin: 1px;
-    background-color: rgba(20, 21, 22, 0.97);
+    margin: 10px;
+    box-shadow: 0 0 0 1px alpha (#000, 0.15),
+                0 12px 30px -6px alpha (#000, 0.80);
     box-shadow: none; }
 
 headerbar.default-decoration button.titlebutton,
