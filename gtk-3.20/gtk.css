@@ -3025,40 +3025,40 @@ headerbar button.titlebutton,
       opacity: 1; }
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-dark.png"), url("assets/titlebutton-close-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-dark.svg")); }
   headerbar button.titlebutton.close:backdrop,
   .titlebar button.titlebutton.close:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop-dark.png"), url("assets/titlebutton-close-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop-dark.svg")); }
   headerbar button.titlebutton.close:hover,
   .titlebar button.titlebutton.close:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-hover-dark.png"), url("assets/titlebutton-close-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-hover-dark.svg")); }
   headerbar button.titlebutton.close:active,
   .titlebar button.titlebutton.close:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-active-dark.png"), url("assets/titlebutton-close-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-active-dark.svg")); }
   headerbar button.titlebutton.maximize,
   .titlebar button.titlebutton.maximize {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-dark.png"), url("assets/titlebutton-maximize-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-dark.svg")); }
   headerbar button.titlebutton.maximize:backdrop,
   .titlebar button.titlebutton.maximize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-backdrop-dark.png"), url("assets/titlebutton-maximize-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-backdrop-dark.svg")); }
   headerbar button.titlebutton.maximize:hover,
   .titlebar button.titlebutton.maximize:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-hover-dark.png"), url("assets/titlebutton-maximize-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-hover-dark.svg")); }
   headerbar button.titlebutton.maximize:active,
   .titlebar button.titlebutton.maximize:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-active-dark.png"), url("assets/titlebutton-maximize-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-active-dark.svg")); }
   headerbar button.titlebutton.minimize,
   .titlebar button.titlebutton.minimize {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-dark.png"), url("assets/titlebutton-minimize-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-dark.svg")); }
   headerbar button.titlebutton.minimize:backdrop,
   .titlebar button.titlebutton.minimize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-backdrop-dark.png"), url("assets/titlebutton-minimize-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-backdrop-dark.svg")); }
   headerbar button.titlebutton.minimize:hover,
   .titlebar button.titlebutton.minimize:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-hover-dark.png"), url("assets/titlebutton-minimize-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-hover-dark.svg")); }
   headerbar button.titlebutton.minimize:active,
   .titlebar button.titlebutton.minimize:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-dark.png"), url("assets/titlebutton-minimize-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-dark.svg")); }
 
 .view:selected, iconview:selected, .view:selected:focus, iconview:selected:focus, .view text:selected, iconview text:selected,
 textview text:selected, iconview text:selected:focus,
@@ -3151,7 +3151,7 @@ popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-can
     border-color: rgba(180, 192, 207, 0.5); }
   .disk-space-display.used {
     background-color: rgba(42, 96, 143, 0.8);
-    border-color: rgba(38, 121, 219, 0.8); }
+    border-color: rgba(42, 96, 143, 0.8); }
   .disk-space-display.free {
     background-color: #141516;
     border-color: #1b1d24; }
@@ -4252,9 +4252,9 @@ GtkListBox .h4{
 .manokwari-fullscreen-dialog button {
     background-color: rgba(10, 10, 10, 0.6);
     color: white;
-    border-color: #1a1a1a;
-    border-style: solid;
-    border-width: 2px;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
 	margin: 0px 50px 30px -45px;
 	border-radius: 5px;
  }
@@ -4262,7 +4262,7 @@ GtkListBox .h4{
 .manokwari-fullscreen-dialog button:hover {
     background-color: #2C2E30;
     color: white;
-    border-color: #1a1a1a;
+    border-color: transparent;
  }
 
 .manokwari-panel {
