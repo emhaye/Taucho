@@ -4252,9 +4252,9 @@ GtkListBox .h4{
 .manokwari-fullscreen-dialog button {
     background-color: rgba(10, 10, 10, 0.6);
     color: white;
-    border-color: #1a1a1a;
-    border-style: solid;
-    border-width: 2px;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
 	margin: 0px 50px 30px -45px;
 	border-radius: 5px;
  }
@@ -4262,7 +4262,7 @@ GtkListBox .h4{
 .manokwari-fullscreen-dialog button:hover {
     background-color: #2C2E30;
     color: white;
-    border-color: #1a1a1a;
+    border-color: transparent;
  }
 
 .manokwari-panel {
