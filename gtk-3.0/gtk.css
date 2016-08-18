@@ -3151,7 +3151,7 @@ popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-can
     border-color: rgba(180, 192, 207, 0.5); }
   .disk-space-display.used {
     background-color: rgba(42, 96, 143, 0.8);
-    border-color: rgba(38, 121, 219, 0.8); }
+    border-color: rgba(42, 96, 143, 0.8); }
   .disk-space-display.free {
     background-color: #141516;
     border-color: #1b1d24; }
