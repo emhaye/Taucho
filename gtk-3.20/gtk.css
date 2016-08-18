@@ -2214,8 +2214,8 @@ scale {
         background-color: #7eafe9;
         border-color: #7eafe9; }
       .osd scale slider:active {
-        background-color: #2679db;
-        border-color: #2679db; }
+        background-color: #2A608F;
+        border-color: #2A608F; }
   scale value {
     color: alpha(currentColor,0.4); }
   scale marks {
@@ -2947,7 +2947,8 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
 decoration {
   border-radius: 5px 5px 0 0;
   border-width: 0px;
-  box-shadow: 0 0 0 1px rgba(31, 32, 36, 0.97), 0 8px 8px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 0 1px alpha (#000, 0.15),
+              0 12px 30px -6px alpha (#000, 0.80);
   margin: 10px; }
   decoration:backdrop {
     box-shadow: 0 0 0 1px rgba(31, 32, 36, 0.87), 0 8px 8px 0 transparent, 0 5px 5px 0 rgba(0, 0, 0, 0.35);
