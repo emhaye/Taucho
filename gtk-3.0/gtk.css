@@ -84,7 +84,7 @@ flowbox flowboxchild {
 
 label.separator, popover label.separator,
 popover.background label.separator {
-  color: #D3DAE3; }
+  color: #2C2E30; }
 
 label selection {
   color: #ffffff;
@@ -1054,7 +1054,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
   box-shadow: none; }
 
 .titlebar:not(headerbar) > separator {
-  background-image: linear-gradient(to top, rgba(20, 21, 22, 0.97)); }
+  background-image: linear-gradient(to top, rgba(42, 44, 46, 0.97)); }
 
 .primary-toolbar separator, headerbar separator.titlebutton, .titlebar:not(headerbar) separator.titlebutton {
   min-width: 1px;
@@ -1118,7 +1118,8 @@ window.csd > .titlebar:not(headerbar):backdrop {
   outline-color: rgba(207, 218, 231, 0.1);
   outline-offset: -3px;
   background-color: rgba(41, 40, 42, 0);
-  border-color: rgba(41, 40, 42, 0); }
+  border-color: rgba(41, 40, 42, 0);
+min-height: 18px;}
   .primary-toolbar button:backdrop, headerbar button:backdrop {
     opacity: 0.7; }
   .primary-toolbar button:hover, headerbar button:hover {
@@ -1434,7 +1435,7 @@ treeview.view {
       color: #97bfee; }
   treeview.view.separator {
     min-height: 2px;
-    color: rgba(0, 0, 0, 0.1); }
+    color: #2C2E30; }
   treeview.view:drop(active) {
     border-style: solid none;
     border-width: 1px;
@@ -1633,7 +1634,7 @@ popover.background {
     border: 1px solid #20222a; }
   popover separator,
   popover.background separator {
-    background-color: #1a1a1a; }
+    background-color: #2C2E30; }
   popover > list,
   popover > .view,
   popover > iconview,
@@ -2428,7 +2429,7 @@ scrolledwindow junction {
     border-image-slice: 0 1 0 0; }
 
 separator {
-  background-color: #1a1a1a;
+  background-color: #2C2E30;
   min-width: 1px;
   min-height: 1px; }
 
@@ -2657,7 +2658,7 @@ paned > separator {
   -gtk-icon-source: none;
   border-style: none;
   background-color: transparent;
-  background-image: linear-gradient(to top, #29282A);
+  background-image: linear-gradient(to top, #2C2E30);
   background-size: 1px 1px; }
   paned > separator:selected {
     background-image: linear-gradient(to top, #2A608F); }
@@ -2665,7 +2666,7 @@ paned > separator {
     min-width: 5px;
     min-height: 5px;
     background-color: #202124;
-    background-image: linear-gradient(to top, #29282A), linear-gradient(to top, #29282A);
+    background-image: linear-gradient(to top, #2C2E30), linear-gradient(to top, #2C2E30);
     background-size: 1px 1px, 1px 1px; }
 
 paned.horizontal > separator {
@@ -3126,7 +3127,7 @@ terminal-window notebook > header.top {
 .nautilus-canvas-item.dim-label, label.nautilus-canvas-item.separator,
 popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-canvas-item.subtitle, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle,
 .nautilus-list-dim-label {
-  color: #868b97; }
+  color: #2C2E30; }
   .nautilus-canvas-item.dim-label:selected, label.nautilus-canvas-item.separator:selected, headerbar .nautilus-canvas-item.subtitle:selected, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle:selected, .nautilus-canvas-item.dim-label:selected:focus, label.nautilus-canvas-item.separator:selected:focus, headerbar .nautilus-canvas-item.subtitle:selected:focus, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle:selected:focus,
   .nautilus-list-dim-label:selected,
   .nautilus-list-dim-label:selected:focus {
@@ -3997,10 +3998,10 @@ GtkListBox .h4 {
   font: bold; }
 
 .nautilus-window paned > separator {
-  background-image: linear-gradient(to top, rgba(26, 26, 26, 0.95)); }
+  background-image: linear-gradient(to top, rgba(44, 46, 48, 0.95)); }
 
 filechooser paned > separator {
-  background-image: linear-gradient(to top, rgba(26, 26, 26, 0.95)); }
+  background-image: linear-gradient(to top, rgba(44, 46, 48, 0.95)); }
 
 filechooser.csd.background, filechooser placessidebar list,
 .nautilus-window.csd.background,
@@ -4071,7 +4072,7 @@ filechooser placessidebar.sidebar,
         color: #ffffff; }
   filechooser placessidebar.sidebar separator,
   .nautilus-window placessidebar.sidebar separator {
-    background-color: transparent; }
+    background-color: #2C2E30; }
 
 filechooser.maximized placessidebar.sidebar,
 .nautilus-window.maximized placessidebar.sidebar {
@@ -4091,7 +4092,7 @@ filechooser.maximized placessidebar.sidebar,
       .nemo-window .sidebar .view.expander:hover, .nemo-window .sidebar iconview.expander:hover, .nemo-window .sidebar row.expander:hover {
         color: #BAC3CF; }
   .nemo-window .sidebar separator {
-    background-color: transparent; }
+    background-color: #2C2E30; }
 
 .caja-side-pane,
 .caja-side-pane > notebook > stack > widget > box,
