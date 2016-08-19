@@ -74,7 +74,7 @@ textview border {
 rubberband, flowbox rubberband, treeview.view rubberband, .content-view rubberband,
 .rubberband {
   border: 1px solid #1a1a1a;
-  background-color: rgba(38, 121, 219, 0.2); }
+  background-color: rgba(32, 33, 36, 0.2); }
 
 flowbox flowboxchild {
   padding: 3px;
@@ -1077,7 +1077,8 @@ window.csd > .titlebar:not(headerbar):backdrop {
   .primary-toolbar entry:focus, headerbar entry:focus {
     color: #ffffff;
     border-color: transparent;
-    background-image: linear-gradient(to bottom, #2A608F);
+    border-radius: 5px 5px 5px 5px;
+    background-image: linear-gradient(to bottom, #2C2E30);
     background-clip: padding-box; }
     .primary-toolbar entry:focus image, headerbar entry:focus image {
       color: #ffffff; }
