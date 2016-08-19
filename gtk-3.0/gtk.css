@@ -73,7 +73,7 @@ textview border {
 
 rubberband, flowbox rubberband, treeview.view rubberband, .content-view rubberband,
 .rubberband {
-  border: 1px solid #2679db;
+  border: 1px solid #1a1a1a;
   background-color: rgba(38, 121, 219, 0.2); }
 
 flowbox flowboxchild {
@@ -1517,7 +1517,7 @@ menubar,
   menubar > menuitem,
   .menubar > menuitem {
     padding: 6px 8px;
-    border: solid transparent;
+    border: none;
     border-width: 0; }
     menubar > menuitem:hover,
     .menubar > menuitem:hover {
@@ -1543,29 +1543,27 @@ menu,
   menu separator,
   .csd menu separator,
   .menu separator,
-  .csd
-  .menu separator {
+  .csd .menu separator {
     margin: 2px 0;
-    background-color: #1a1a1a; }
+    background-color: #2C2E30; }
   menu .separator,
   .csd menu .separator,
   .menu .separator,
-  .csd
-  .menu .separator {
-    color: #1a1a1a; }
+  .csd .menu .separator {
+    color: #2C2E30; }
   menu menuitem,
   .menu menuitem {
     min-height: 16px;
     min-width: 40px;
     padding: 4px;
-    border: solid transparent;
+    border: none;
     border-width: 1px 0 1px 0; }
     menu menuitem:hover,
     .menu menuitem:hover {
       color: #D3DAE3;
       background-color: rgba(255, 255, 255, 0.05);
       border: solid rgba(255, 255, 255, 0.07);
-      border-width: 1px 0 1px 0; }
+      border-width: 0px 0 0px 0; }
     menu menuitem:disabled,
     .menu menuitem:disabled {
       color: rgba(211, 218, 227, 0.45); }
@@ -3998,10 +3996,10 @@ GtkListBox .h4 {
   font: bold; }
 
 .nautilus-window paned > separator {
-  background-image: linear-gradient(to top, rgba(42, 45, 55, 0.95)); }
+  background-image: linear-gradient(to top, rgba(26, 26, 26, 0.95)); }
 
 filechooser paned > separator {
-  background-image: linear-gradient(to top, rgba(42, 45, 55, 0.95)); }
+  background-image: linear-gradient(to top, rgba(26, 26, 26, 0.95)); }
 
 filechooser.csd.background, filechooser placessidebar list,
 .nautilus-window.csd.background,
@@ -4109,7 +4107,7 @@ filechooser.maximized placessidebar.sidebar,
   border-color: #2a2d37; }
 
 .caja-side-pane junction {
-  background-color: rgba(42, 45, 55, 0.95); }
+  background-color: rgba(26, 26, 26, 0.95); }
 
 filechooser actionbar {
   color: #BAC3CF;
