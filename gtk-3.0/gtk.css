@@ -3014,6 +3014,7 @@ headerbar button.titlebutton,
   .titlebar button.titlebutton.maximize,
   .titlebar button.titlebutton.minimize {
     color: transparent;
+    margin: 0px 0px 0px -5px;
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
