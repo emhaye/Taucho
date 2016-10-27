@@ -13,3 +13,6 @@ If you find a bug or want an improvement in any way, simply raise an issue and w
 $ mkdir ~/.themes
 $ git clone https://github.com/dotovr/Taucho.git ~/.themes/Taucho
 ```
+
+## LICENSE
+Taucho is available under the terms the MIT. See `LICENSE` for details.
