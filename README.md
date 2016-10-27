@@ -1,6 +1,6 @@
 #Taucho
 
-Taucho is a GTK+ theme.
+Taucho is a Dark GTK3 theme. This themes optimized from [Arc-Theme](https://github.com/horst3180/arc-theme).
 If you find a bug or want an improvement in any way, simply raise an issue and we'll be there.
 
 ## Support
