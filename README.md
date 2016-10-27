@@ -3,6 +3,8 @@
 Taucho is a Dark GTK3 theme. This themes optimized from [Arc-Theme](https://github.com/horst3180/arc-theme).
 If you find a bug or want an improvement in any way, simply raise an issue and we'll be there.
 
+![Taucho GTK3 Dark Theme](http://i.imgur.com/8YBW3Pig.png)
+
 ## Requirements
 * Gnome/GTK3 3.18 - 3.20
 * The `gnome-themes-standard` package
